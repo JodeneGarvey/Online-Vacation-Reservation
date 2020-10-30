@@ -28,7 +28,9 @@
 
                 <div class="col-9">
                     <p>
-                       
+                       The Jamaican Toursist Board seeks to provide a safe and convient way for visitors of our beloved island. 
+                       JTB Airline & Cruise offer vistors who are planning a luxurious vacation to book flights to and from various locations.
+                       We also facilitate the booking of our cruise ships to traverse through the islands of the Caribbean.
                     </p>
                 </div>
             </div>
