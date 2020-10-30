@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="JTB.master.cs" Inherits="Online_Vacation_Reservation.JTB" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Jamaica Tourist Board Airline & Cruise</title>
+     <%--Bootstrap css--%>
+    <link href="Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <%--Datatables css--%>
+    <link href="Datatables/css/jquery.dataTables.min.css" rel="stylesheet" />
+    <%--My CSS--%>
+    <link href="css/CustomStyleSheet.css" rel="stylesheet" />
+
+    <%--jquery--%>
+    <script src="Bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <%--Popper js--%>
+    <script src="Bootstrap/js/popper.min.js"></script>
+    <%--Bootstrap js--%>
+    <script src="Bootstrap/js/bootstrap.min.js"></script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+               <a class="navbar-brand" href="#">
+                   <asp:Image ID="image1" runat="server" ImageUrl="Online%20Flight%20and%20Cruise/logo.png" Width="100px" />
+                   JTB Airline & Cruise
+               </a>
+
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Reservation</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="AboutUs.aspx">About</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="ContactUs.aspx">Contact</a>
+                        </li>
+
+                         <li class="nav-item active">
+                            <a class="nav-link" href="UserLogin.aspx">Login</a>
+                        </li>
+
+                        <li class="nav-item active">
+                            <a class="nav-link" href="UserRegister.aspx">Register</a>
+                        </li>
+
+                       </ul>
+                    </div>
+
+             </nav>
+         
+               
+              
+               
+
+           </div>
+                <div id="content">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            
+    </form>
+</body>
+</html>
